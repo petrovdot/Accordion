@@ -41,8 +41,8 @@
         var _this2 = this;
         var defaults = {
           duration: 600, // animation duration in ms {number}
-          ariaEnabled: true, // add ARIA elements to the HTML structure {boolean}
-          collapse: true, // allow collapse expanded panel {boolean}
+          ariaEnabled: false, // add ARIA elements to the HTML structure {boolean}
+          collapse: false, // allow collapse expanded panel {boolean}
           showMultiple: false, // show multiple elements at the same time {boolean}
           openOnInit: [], // show accordion elements during initialization {array}
           elementClass: 'ac', // element class {string}
